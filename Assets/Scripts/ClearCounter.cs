@@ -9,7 +9,7 @@ public class ClearCounter : BaseCounter, IKitchenObjectParent
 
     private KitchenObject kitchenObject;
 
-    public void Interact(Player player)
+    public override void Interact(Player player)
     {
         //only spawn if there is nothing on the counter, if there is something on the counter do not spawn anything.
         //avoid infinite spawns.

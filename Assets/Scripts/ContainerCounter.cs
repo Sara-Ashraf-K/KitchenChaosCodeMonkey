@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ContainerCounter : MonoBehaviour, IKitchenObjectParent
+public class ContainerCounter : BaseCounter, IKitchenObjectParent
 {
     [SerializeField] private KitchenObjectSO kitchenObjectSO;
     [SerializeField] private Transform counterTopPoint;
 
     private KitchenObject kitchenObject;
 
-    public void Interact(Player player)
+    public override void Interact(Player player)
     {
-        //only spawn if there is nothing on the counter, if there is something on the counter do not spawn anything.
-        //avoid infinite spawns.
+        //only spawn if there is nothing on the counter, if there is something on the counter give it to the player.
         if (kitchenObject == null)
         {
             Transform kitchenObjectTransform = Instantiate(kitchenObjectSO.prefab, counterTopPoint);
