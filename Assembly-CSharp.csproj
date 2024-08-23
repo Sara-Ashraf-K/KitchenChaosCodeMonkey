@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\ClearCounter.cs" />
     <Compile Include="Assets\Scripts\KitchenObject.cs" />
     <Compile Include="Assets\Scripts\BaseCounter.cs" />
+    <Compile Include="Assets\Scripts\CuttingCounter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\_Assets\KitchenChaos_COMPLETE_PROJECT.txt" />
