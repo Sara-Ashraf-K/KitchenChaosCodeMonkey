@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a96e9970ed5e4ee478a01e2e07ba4408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseCounter: {fileID: 0}
+  baseCounter: {fileID: 4158564101840710848}
   visualGameObjectArray:
   - {fileID: 8216419534551268891}
   - {fileID: 830911556488138213}
@@ -235,8 +235,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4589716710238282922, guid: 93af8b85a17635f40a5b76ed82a86c18,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6321229358981209753}
   m_SourcePrefab: {fileID: 100100000, guid: 93af8b85a17635f40a5b76ed82a86c18, type: 3}
+--- !u!1 &7290039501497684700 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4589716710238282922, guid: 93af8b85a17635f40a5b76ed82a86c18,
+    type: 3}
+  m_PrefabInstance: {fileID: 6528705752959858294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6321229358981209753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7290039501497684700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d55d6ac1fe0b0c94da3879ca835d5cca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &7290039501497684701 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4589716710238282923, guid: 93af8b85a17635f40a5b76ed82a86c18,
@@ -333,6 +355,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 4158564101840710848}
   m_SourcePrefab: {fileID: 100100000, guid: bf6211d0c694e134caa6d775b4a00ca2, type: 3}
+--- !u!4 &86384949582037598 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6865252530286263851, guid: bf6211d0c694e134caa6d775b4a00ca2,
+    type: 3}
+  m_PrefabInstance: {fileID: 6806241314273197173}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1021411463796515091 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5789491921949629798, guid: bf6211d0c694e134caa6d775b4a00ca2,
@@ -351,6 +379,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44d4321e069436d478c732f02ebdd061, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  counterTopPoint: {fileID: 86384949582037598}
+  fryingRecipeSOArray:
+  - {fileID: 11400000, guid: b489a47532b66e14ca58e9e5bd70ff24, type: 2}
+  burningRecipeSOArray:
+  - {fileID: 11400000, guid: 84d5d29ffebefa54fb37986e424a1e96, type: 2}
 --- !u!4 &3178571556530927663 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8243889246494573658, guid: bf6211d0c694e134caa6d775b4a00ca2,
