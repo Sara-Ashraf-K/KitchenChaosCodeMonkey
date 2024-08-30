@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Counters\ContainerCounterVisual.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\CuttingRecipeSO.cs" />
     <Compile Include="Assets\Scripts\ProgressBarUI.cs" />
+    <Compile Include="Assets\Scripts\IHasProgress.cs" />
     <Compile Include="Assets\Scripts\Counters\TrashCounter.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\BurningRecipeSO.cs" />
     <Compile Include="Assets\Scripts\LookAtCamera.cs" />
