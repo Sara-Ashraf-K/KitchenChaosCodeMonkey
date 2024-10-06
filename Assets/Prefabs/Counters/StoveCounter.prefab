@@ -89,6 +89,8 @@ GameObject:
   - component: {fileID: 8896366588105743984}
   - component: {fileID: 5050087776823896238}
   - component: {fileID: 5755527083476922842}
+  - component: {fileID: 1251863429569600029}
+  - component: {fileID: 5765893750003893798}
   m_Layer: 5
   m_Name: StoveBurnWarningUI
   m_TagString: Untagged
@@ -205,6 +207,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stoveCounter: {fileID: 4158564101840710848}
+--- !u!95 &1251863429569600029
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4090426847101027567}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 14891674e444e9f4a8a9d4467e1e2243, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!225 &5765893750003893798
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4090426847101027567}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7738499069270721592
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,6 +807,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3178571556530927663}
     m_Modifications:
+    - target: {fileID: 213073511533573247, guid: 368dfee08c9ec1e4b81cba4f98d7b067,
+        type: 3}
+      propertyPath: m_FillAmount
+      value: 0.431
+      objectReference: {fileID: 0}
     - target: {fileID: 2600569421744850728, guid: 368dfee08c9ec1e4b81cba4f98d7b067,
         type: 3}
       propertyPath: m_Pivot.x
@@ -890,8 +930,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5257067363311341377, guid: 368dfee08c9ec1e4b81cba4f98d7b067,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3375819198722508099}
+    - targetCorrespondingSourceObject: {fileID: 5257067363311341377, guid: 368dfee08c9ec1e4b81cba4f98d7b067,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4256933661593454293}
   m_SourcePrefab: {fileID: 100100000, guid: 368dfee08c9ec1e4b81cba4f98d7b067, type: 3}
+--- !u!1 &2423463819201807019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5257067363311341377, guid: 368dfee08c9ec1e4b81cba4f98d7b067,
+    type: 3}
+  m_PrefabInstance: {fileID: 7589978695732940266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &3375819198722508099
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2423463819201807019}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 94064f06c112c3c409ec56458fb2afde, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4256933661593454293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2423463819201807019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1d771ef17a7d84abeef5b701e6c9f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoveCounter: {fileID: 4158564101840710848}
 --- !u!224 &5567031285188758210 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2600569421744850728, guid: 368dfee08c9ec1e4b81cba4f98d7b067,

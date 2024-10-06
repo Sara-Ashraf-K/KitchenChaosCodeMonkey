@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\Counters\TrashCounter.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\BurningRecipeSO.cs" />
     <Compile Include="Assets\Scripts\PlateKitchenObject.cs" />
+    <Compile Include="Assets\Scripts\UI\StoveBurnFlashingBarUI.cs" />
     <Compile Include="Assets\Scripts\UI\PlateIconsUI.cs" />
     <Compile Include="Assets\Scripts\LookAtCamera.cs" />
     <Compile Include="Assets\Scripts\Counters\ClearCounter.cs" />
